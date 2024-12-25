@@ -8,7 +8,7 @@ function CalculateAge(){
         alert("Plese Enter Valid Date")
     }else{
         const age = getAge(birthdayValue); 
-        resultEl.innerText = `Your age is ${age} ${age > 1 ? "year": "years"}old`;
+        resultEl.innerText = `Your age is ${age} ${age > 1 ? "year": "years"} old`;
     }
 
 }
